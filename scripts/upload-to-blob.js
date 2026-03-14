@@ -44,6 +44,7 @@ const IMAGE_DIRS = [
   { dir: path.join(ROOT, 'public', 'images', 'bw'),    blobPrefix: 'images/bw' },
   { dir: path.join(ROOT, 'public', 'homePage'),         blobPrefix: 'homePage' },
   { dir: path.join(ROOT, 'public', 'about'),            blobPrefix: 'about' },
+  { dir: path.join(ROOT, 'public', 'footer'),           blobPrefix: 'footer' },
 ];
 
 const METADATA_PATH = path.join(ROOT, 'public', 'data', 'images.json');

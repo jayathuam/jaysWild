@@ -1,3 +1,5 @@
+const BLOB_BASE = 'https://mgssxoysthxmwtr7.public.blob.vercel-storage.com'
+
 interface FooterProps {
   title?: string
   description?: string
@@ -14,7 +16,7 @@ export function Footer({
   email = 'contact@wildlifephoto.example',
 }: FooterProps) {
   return (
-    <footer className="relative z-10 pt-15 pb-40 px-6 text-center bg-cover bg-center bg-no-repeat mt-20" style={{ backgroundImage: "url('/footer/3.jpg')", backgroundSize: 'cover', backgroundPosition: '50% 70%' }}>
+    <footer className="relative z-10 pt-15 pb-40 px-6 text-center bg-cover bg-center bg-no-repeat mt-20" style={{ backgroundImage: `url(${BLOB_BASE}/footer/3.jpg)`, backgroundSize: 'cover', backgroundPosition: '50% 70%' }}>
       <h2 className="font-serif text-3xl md:text-4xl font-bold text-forest-700 mb-10">
         {title}
       </h2>
