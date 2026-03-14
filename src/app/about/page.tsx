@@ -1,13 +1,29 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 
-const BLOB_BASE = 'https://mgssxoysthxmwtr7.public.blob.vercel-storage.com'
+interface SiteImage { url: string; alt: string; filename: string }
+interface AboutImages {
+  heroBackground: SiteImage
+  profile: SiteImage
+  strip1: SiteImage
+  boyBackground: SiteImage
+  strip2: SiteImage
+  safariBackground: SiteImage
+}
 
 export default function AboutPage() {
   const observerRef = useRef<IntersectionObserver | null>(null)
+  const [about, setAbout] = useState<AboutImages | null>(null)
+
+  useEffect(() => {
+    fetch('/data/images.json')
+      .then((r) => r.json())
+      .then((data) => setAbout(data.about))
+      .catch(console.error)
+  }, [])
 
   useEffect(() => {
     // Create intersection observer for scroll animations
@@ -54,14 +70,14 @@ export default function AboutPage() {
       <section
         className="relative z-10 bg-white min-h-125 flex flex-col items-center justify-center py-16 md:py-20 px-6 text-center"
         style={{
-          backgroundImage: `url(${BLOB_BASE}/about/hero-elephant-bg.png)`,
+          backgroundImage: about ? `url(${about.heroBackground.url})` : undefined,
           backgroundSize: 'contain',
           backgroundPosition: 'bottom right',
           backgroundRepeat: 'no-repeat'
         }}
       >
         <img
-          src={`${BLOB_BASE}/about/profile.jpg`}
+          src={about?.profile.url}
           alt="Jayathu Amarasinghe"
           className="w-45 h-45 md:w-60 md:h-60 rounded-full border-4 border-forest-500 object-cover mb-8 shadow-[0_8px_24px_rgba(90,138,109,0.2)]"
         />
@@ -77,7 +93,7 @@ export default function AboutPage() {
       <div
         className="relative z-10 w-full overflow-hidden"
         style={{
-          backgroundImage: `url(${BLOB_BASE}/about/1.jpg)`,
+          backgroundImage: about ? `url(${about.strip1.url})` : undefined,
           // Size options: 'cover' (fills area, may crop), 'contain' (shows full image), '100% 400px' (width height), etc.
           backgroundSize: 'cover',
           // Position options: 'center', 'top', 'bottom', 'left', 'right', '50% 30%', etc.
@@ -92,7 +108,7 @@ export default function AboutPage() {
       <section
         className="relative z-10 max-w-4xl mx-auto py-16 md:py-24 px-6 bg-white overflow-hidden"
         style={{
-          backgroundImage: `url(${BLOB_BASE}/about/boy.png)`,
+          backgroundImage: about ? `url(${about.boyBackground.url})` : undefined,
           // Size options: 'contain', 'cover', '50%', '300px', 'auto 400px', etc.
           backgroundSize: 'contain',
           // Position options: 'right center', 'left top', 'center bottom', '100px 50px', '80% 50%', etc.
@@ -124,7 +140,7 @@ export default function AboutPage() {
       <div
         className="relative z-10 w-full overflow-hidden"
         style={{
-          backgroundImage: `url(${BLOB_BASE}/about/2.jpg)`,
+          backgroundImage: about ? `url(${about.strip2.url})` : undefined,
           // Size options: 'cover' (fills area, may crop), 'contain' (shows full image), '120%' (zoom out), '150%' (zoom out more), etc.
           backgroundSize: '100%',
           // Position options: 'center', 'top', 'bottom', 'left', 'right', '50% 30%', etc.
@@ -139,7 +155,7 @@ export default function AboutPage() {
       <section
         className="relative z-10 max-w-4xl mx-auto py-16 md:py-24 px-6 bg-white overflow-hidden"
         style={{
-          backgroundImage: `url(${BLOB_BASE}/about/safari.png)`,
+          backgroundImage: about ? `url(${about.safariBackground.url})` : undefined,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

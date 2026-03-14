@@ -1,4 +1,6 @@
-const BLOB_BASE = 'https://mgssxoysthxmwtr7.public.blob.vercel-storage.com'
+'use client'
+
+import { useEffect, useState } from 'react'
 
 interface FooterProps {
   title?: string
@@ -15,8 +17,17 @@ export function Footer({
   facebookUrl = 'https://facebook.com/wildlifephotography',
   email = 'contact@wildlifephoto.example',
 }: FooterProps) {
+  const [bgUrl, setBgUrl] = useState<string | undefined>(undefined)
+
+  useEffect(() => {
+    fetch('/data/images.json')
+      .then((r) => r.json())
+      .then((data) => setBgUrl(data.footer.background.url))
+      .catch(console.error)
+  }, [])
+
   return (
-    <footer className="relative z-10 pt-15 pb-40 px-6 text-center bg-cover bg-center bg-no-repeat mt-20" style={{ backgroundImage: `url(${BLOB_BASE}/footer/3.jpg)`, backgroundSize: 'cover', backgroundPosition: '50% 70%' }}>
+    <footer className="relative z-10 pt-15 pb-40 px-6 text-center bg-cover bg-center bg-no-repeat mt-20" style={{ backgroundImage: bgUrl ? `url(${bgUrl})` : undefined, backgroundSize: 'cover', backgroundPosition: '50% 70%' }}>
       <h2 className="font-serif text-3xl md:text-4xl font-bold text-forest-700 mb-10">
         {title}
       </h2>

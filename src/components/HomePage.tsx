@@ -4,21 +4,17 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useTimeOfDay } from '@/hooks/useTimeOfDay'
 
-const BLOB_BASE = 'https://mgssxoysthxmwtr7.public.blob.vercel-storage.com'
+interface SiteImage {
+  url: string
+  alt: string
+  filename: string
+}
 
-const TIME_BACKGROUNDS = {
-  dawn: {
-    imageUrl: `${BLOB_BASE}/homePage/dawn.jpg`,
-  },
-  midday: {
-    imageUrl: `${BLOB_BASE}/homePage/midday.jpg`,
-  },
-  dusk: {
-    imageUrl: `${BLOB_BASE}/homePage/dusk.jpg`,
-  },
-  night: {
-    imageUrl: `${BLOB_BASE}/homePage/night.jpg`,
-  },
+interface HomePageImages {
+  dawn: SiteImage
+  midday: SiteImage
+  dusk: SiteImage
+  night: SiteImage
 }
 
 export function HomePage() {
@@ -26,8 +22,15 @@ export function HomePage() {
   const [showNavigation, setShowNavigation] = useState(false)
   const [isFirstVisit, setIsFirstVisit] = useState(true)
   const [manualTimeOfDay, setManualTimeOfDay] = useState<string | null>(null)
+  const [homePageImages, setHomePageImages] = useState<HomePageImages | null>(null)
+  const timeOfDay = (manualTimeOfDay || autoTimeOfDay) as keyof HomePageImages
 
-  const timeOfDay = (manualTimeOfDay || autoTimeOfDay) as keyof typeof TIME_BACKGROUNDS
+  useEffect(() => {
+    fetch('/data/images.json')
+      .then((r) => r.json())
+      .then((data) => setHomePageImages(data.homePage))
+      .catch(console.error)
+  }, [])
 
   useEffect(() => {
     const hasVisited = sessionStorage.getItem('hasVisited')
@@ -67,11 +70,11 @@ export function HomePage() {
 
       {/* Time-adaptive background with crossfade */}
       <div className="absolute inset-0 z-0">
-        {Object.entries(TIME_BACKGROUNDS).map(([time, bg]) => (
+        {homePageImages && (Object.entries(homePageImages) as [keyof HomePageImages, SiteImage][]).map(([time, img]) => (
           <img
             key={time}
-            src={bg.imageUrl}
-            alt=""
+            src={img.url}
+            alt={img.alt}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1500] ease-in-out ${
               timeOfDay === time ? 'opacity-100' : 'opacity-0'
             }`}

@@ -766,5 +766,22 @@
   "categories": {
     "color": 23,
     "bw": 15
+  },
+  "homePage": {
+    "dawn":   { "filename": "dawn.jpg",   "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/dawn.jpg",   "alt": "Dawn wildlife scene" },
+    "midday": { "filename": "midday.jpg", "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/midday.jpg", "alt": "Midday wildlife scene" },
+    "dusk":   { "filename": "dusk.jpg",   "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/dusk.jpg",   "alt": "Dusk wildlife scene" },
+    "night":  { "filename": "night.jpg",  "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/night.jpg",  "alt": "Night wildlife scene" }
+  },
+  "about": {
+    "heroBackground":   { "filename": "hero-elephant-bg.png", "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/hero-elephant-bg.png", "alt": "Elephant background" },
+    "profile":          { "filename": "profile.jpg",          "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/profile.jpg",          "alt": "Jayathu Amarasinghe" },
+    "strip1":           { "filename": "1.jpg",                "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/1.jpg",                "alt": "Wildlife photo strip 1" },
+    "boyBackground":    { "filename": "boy.png",              "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/boy.png",              "alt": "Young photographer" },
+    "strip2":           { "filename": "2.jpg",                "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/2.jpg",                "alt": "Wildlife photo strip 2" },
+    "safariBackground": { "filename": "safari.png",           "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/safari.png",           "alt": "Safari equipment" }
+  },
+  "footer": {
+    "background": { "filename": "3.jpg", "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/footer/3.jpg", "alt": "Wildlife footer background" }
   }
 }
