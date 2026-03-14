@@ -3,7 +3,9 @@
  * Upload all local images to Vercel Blob Storage and update images.json with new URLs.
  *
  * Usage:
- *   yarn upload-to-blob
+ *   yarn upload-to-blob              → upload new images only (skip existing)
+ *   yarn upload-to-blob --force      → re-upload ALL images (use when replacing an image)
+ *   yarn upload-to-blob --force Lion.jpg Leopard.jpg  → re-upload specific files only
  *
  * Requires BLOB_READ_WRITE_TOKEN in .env.local
  */
@@ -11,6 +13,11 @@
 const { put, list } = require('@vercel/blob');
 const fs = require('fs');
 const path = require('path');
+
+// Parse CLI flags
+const args = process.argv.slice(2);
+const FORCE = args.includes('--force');
+const FORCE_FILES = new Set(args.filter(a => !a.startsWith('--'))); // specific filenames to force
 
 // Load .env.local manually (no dotenv dependency needed)
 const envPath = path.join(__dirname, '..', '.env.local');
@@ -49,7 +56,7 @@ function getImageFiles(dir) {
     .map(f => path.join(dir, f));
 }
 
-async function uploadFile(filePath, blobPrefix) {
+async function uploadFile(filePath, blobPrefix, overwrite = false) {
   const filename = path.basename(filePath);
   const blobPathname = `${blobPrefix}/${filename}`;
   const buffer = fs.readFileSync(filePath);
@@ -64,21 +71,29 @@ async function uploadFile(filePath, blobPrefix) {
     access: 'public',
     contentType,
     addRandomSuffix: false,
+    allowOverwrite: overwrite,
   });
 
   return { localPath: filePath, blobPathname, url: result.url };
 }
 
 async function main() {
-  console.log('🚀  Starting Vercel Blob upload...\n');
+  if (FORCE && FORCE_FILES.size > 0) {
+    console.log(`🚀  Starting Vercel Blob upload (force replace: ${[...FORCE_FILES].join(', ')})...\n`);
+  } else if (FORCE) {
+    console.log('🚀  Starting Vercel Blob upload (force replace ALL)...\n');
+  } else {
+    console.log('🚀  Starting Vercel Blob upload (new images only)...\n');
+  }
 
-  const uploadMap = {}; // localRelPath → blobUrl  e.g. "/images/color/Bear.jpg" → "https://..."
+  const uploadMap = {}; // localRelPath → blobUrl
   let totalUploaded = 0;
+  let totalReplaced = 0;
   let totalSkipped = 0;
 
   // Fetch existing blobs and build a pathname → url map
   console.log('🔍  Checking existing blobs...');
-  const existingBlobMap = {}; // pathname → url
+  const existingBlobMap = {};
   try {
     let cursor;
     do {
@@ -103,20 +118,24 @@ async function main() {
       const filename = path.basename(filePath);
       const blobPathname = `${blobPrefix}/${filename}`;
       const localKey = `/${blobPrefix}/${filename}`;
+      const alreadyExists = !!existingBlobMap[blobPathname];
 
-      if (existingBlobMap[blobPathname]) {
-        // Already uploaded — grab the URL from the listing
+      // Determine if we should (re-)upload this file
+      const shouldForce = FORCE || FORCE_FILES.has(filename);
+
+      if (alreadyExists && !shouldForce) {
         uploadMap[localKey] = existingBlobMap[blobPathname];
-        console.log(`   ⏭️  Already uploaded: ${filename}`);
+        console.log(`   ⏭️  Skip (use --force to replace): ${filename}`);
         totalSkipped++;
         continue;
       }
 
       try {
-        process.stdout.write(`   ⬆️  Uploading ${filename}...`);
-        const { url } = await uploadFile(filePath, blobPrefix);
+        const action = alreadyExists ? '🔄  Replacing' : '⬆️  Uploading';
+        process.stdout.write(`   ${action} ${filename}...`);
+        const { url } = await uploadFile(filePath, blobPrefix, alreadyExists);
         uploadMap[localKey] = url;
-        totalUploaded++;
+        if (alreadyExists) totalReplaced++; else totalUploaded++;
         console.log(` ✅`);
       } catch (err) {
         if (err.message && err.message.includes('private store')) {
@@ -133,26 +152,23 @@ async function main() {
   if (fs.existsSync(METADATA_PATH) && Object.keys(uploadMap).length > 0) {
     console.log('📝  Updating public/data/images.json with Blob URLs...');
     const json = JSON.parse(fs.readFileSync(METADATA_PATH, 'utf-8'));
-    // Support both { images: [...] } and plain array formats
     const metadata = Array.isArray(json) ? json : json.images;
     let updated = 0;
 
     for (const image of metadata) {
-      const localPath = image.url; // e.g. "/images/color/Bear.jpg"
-      if (uploadMap[localPath]) {
-        image.url = uploadMap[localPath];
+      if (uploadMap[image.url]) {
+        image.url = uploadMap[image.url];
         updated++;
       }
     }
 
-    // Write back in same structure
     const output = Array.isArray(json) ? metadata : { ...json, images: metadata };
     fs.writeFileSync(METADATA_PATH, JSON.stringify(output, null, 2));
     console.log(`   ✅  Updated ${updated} image URL(s) in images.json\n`);
   }
 
   console.log('─'.repeat(50));
-  console.log(`✅  Done! ${totalUploaded} uploaded, ${totalSkipped} already existed`);
+  console.log(`✅  Done!  ⬆️  ${totalUploaded} new  |  🔄 ${totalReplaced} replaced  |  ⏭️  ${totalSkipped} skipped`);
   console.log('💡  Run `yarn dev` and check /gallery/color and /gallery/bw');
 }
 
