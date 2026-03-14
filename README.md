@@ -20,16 +20,18 @@ A stunning, performance-obsessed wildlife photography portfolio built with **Nex
 
 ## 🎨 Design Philosophy
 
-```
-🌿 Matte Nature Palette
-   Forest Green  ████  #5a8a6d
-   Savanna Ochre ████  #8f7556
-   Warm Neutral  ████  #faf9f7
+**🌿 Matte Nature Palette**
 
-🔤 Typography
-   Headings  →  Cormorant Garamond (Serif)
-   Body      →  Inter (Sans)
-   Metadata  →  JetBrains Mono (Mono)
+![Forest Green](https://img.shields.io/badge/Forest_Green-%235a8a6d-5a8a6d?style=flat-square) `#5a8a6d`
+![Savanna Ochre](https://img.shields.io/badge/Savanna_Ochre-%238f7556-8f7556?style=flat-square) `#8f7556`
+![Warm Neutral](https://img.shields.io/badge/Warm_Neutral-%23faf9f7-faf9f7?style=flat-square&logoColor=333) `#faf9f7`
+
+**🔤 Typography**
+
+```
+Headings  →  Cormorant Garamond (Serif)
+Body      →  Inter (Sans)
+Metadata  →  JetBrains Mono (Mono)
 ```
 
 > *Generous whitespace. Calm scroll physics. Every design decision feels like walking through nature.*
