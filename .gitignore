@@ -40,3 +40,9 @@ next-env.d.ts
 
 # playwright
 /playwright/.cache/
+
+# images (stored in Vercel Blob CDN)
+/public/images/
+/public/homePage/
+/public/about/
+/public/footer/

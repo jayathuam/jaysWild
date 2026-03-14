@@ -4,6 +4,8 @@ import { useEffect, useRef } from 'react'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 
+const BLOB_BASE = 'https://mgssxoysthxmwtr7.public.blob.vercel-storage.com'
+
 export default function AboutPage() {
   const observerRef = useRef<IntersectionObserver | null>(null)
 
@@ -52,14 +54,14 @@ export default function AboutPage() {
       <section
         className="relative z-10 bg-white min-h-125 flex flex-col items-center justify-center py-16 md:py-20 px-6 text-center"
         style={{
-          backgroundImage: 'url(/about/hero-elephant-bg.png)',
+          backgroundImage: `url(${BLOB_BASE}/about/hero-elephant-bg.png)`,
           backgroundSize: 'contain',
           backgroundPosition: 'bottom right',
           backgroundRepeat: 'no-repeat'
         }}
       >
         <img
-          src="/about/profile.jpg"
+          src={`${BLOB_BASE}/about/profile.jpg`}
           alt="Jayathu Amarasinghe"
           className="w-45 h-45 md:w-60 md:h-60 rounded-full border-4 border-forest-500 object-cover mb-8 shadow-[0_8px_24px_rgba(90,138,109,0.2)]"
         />
@@ -75,7 +77,7 @@ export default function AboutPage() {
       <div
         className="relative z-10 w-full overflow-hidden"
         style={{
-          backgroundImage: 'url(/about/1.jpg)',
+          backgroundImage: `url(${BLOB_BASE}/about/1.jpg)`,
           // Size options: 'cover' (fills area, may crop), 'contain' (shows full image), '100% 400px' (width height), etc.
           backgroundSize: 'cover',
           // Position options: 'center', 'top', 'bottom', 'left', 'right', '50% 30%', etc.
@@ -90,7 +92,7 @@ export default function AboutPage() {
       <section
         className="relative z-10 max-w-4xl mx-auto py-16 md:py-24 px-6 bg-white overflow-hidden"
         style={{
-          backgroundImage: 'url(/about/boy.png)',
+          backgroundImage: `url(${BLOB_BASE}/about/boy.png)`,
           // Size options: 'contain', 'cover', '50%', '300px', 'auto 400px', etc.
           backgroundSize: 'contain',
           // Position options: 'right center', 'left top', 'center bottom', '100px 50px', '80% 50%', etc.
@@ -122,7 +124,7 @@ export default function AboutPage() {
       <div
         className="relative z-10 w-full overflow-hidden"
         style={{
-          backgroundImage: 'url(/about/2.jpg)',
+          backgroundImage: `url(${BLOB_BASE}/about/2.jpg)`,
           // Size options: 'cover' (fills area, may crop), 'contain' (shows full image), '120%' (zoom out), '150%' (zoom out more), etc.
           backgroundSize: '100%',
           // Position options: 'center', 'top', 'bottom', 'left', 'right', '50% 30%', etc.
@@ -137,7 +139,7 @@ export default function AboutPage() {
       <section
         className="relative z-10 max-w-4xl mx-auto py-16 md:py-24 px-6 bg-white overflow-hidden"
         style={{
-          backgroundImage: 'url(/about/safari.png)',
+          backgroundImage: `url(${BLOB_BASE}/about/safari.png)`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

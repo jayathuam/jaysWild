@@ -4,18 +4,20 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useTimeOfDay } from '@/hooks/useTimeOfDay'
 
+const BLOB_BASE = 'https://mgssxoysthxmwtr7.public.blob.vercel-storage.com'
+
 const TIME_BACKGROUNDS = {
   dawn: {
-    imageUrl: '/homePage/dawn.jpg',
+    imageUrl: `${BLOB_BASE}/homePage/dawn.jpg`,
   },
   midday: {
-    imageUrl: '/homePage/midday.jpg',
+    imageUrl: `${BLOB_BASE}/homePage/midday.jpg`,
   },
   dusk: {
-    imageUrl: '/homePage/dusk.jpg',
+    imageUrl: `${BLOB_BASE}/homePage/dusk.jpg`,
   },
   night: {
-    imageUrl: '/homePage/night.jpg',
+    imageUrl: `${BLOB_BASE}/homePage/night.jpg`,
   },
 }
 
