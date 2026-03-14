@@ -214,12 +214,49 @@ yarn build
 
 # Run E2E tests
 yarn test
-
-# Sync images from Google Drive
-yarn sync-images
 ```
 
 Open [http://localhost:3000](http://localhost:3000) 🌿
+
+---
+
+## 🖼️ Image Management
+
+All images are stored on **Vercel Blob CDN** and referenced via `public/data/images.json`.
+
+### Add new images
+
+```bash
+# 1. Drop new photos into the right folder:
+#    public/images/color/   ← colour wildlife shots
+#    public/images/bw/      ← black & white shots
+
+# 2. Extract EXIF metadata (camera, lens, location, etc.)
+yarn generate-metadata
+
+# 3. Upload new images to Vercel Blob CDN (skips already-uploaded files)
+yarn upload-to-blob
+```
+
+### Replace an existing image
+
+```bash
+# Replace a specific file (same filename, new photo)
+yarn upload-to-blob --force Lion.jpg
+
+# Or force re-upload everything
+yarn upload-to-blob:force
+```
+
+### Quick reference
+
+| Scenario | Command |
+|----------|---------|
+| ➕ Add new image(s) | `yarn generate-metadata` → `yarn upload-to-blob` |
+| 🔄 Replace one image | `yarn upload-to-blob --force <filename>` |
+| 🔄 Replace all images | `yarn upload-to-blob:force` |
+
+> **Note:** `BLOB_READ_WRITE_TOKEN` must be set in `.env.local` (get it from Vercel Dashboard → Storage → your Blob store → Settings). Never commit this token.
 
 ---
 
