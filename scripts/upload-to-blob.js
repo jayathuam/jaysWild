@@ -16,8 +16,8 @@ const path = require('path');
 
 // Parse CLI flags
 const args = process.argv.slice(2);
-const FORCE = args.includes('--force');
 const FORCE_FILES = new Set(args.filter(a => !a.startsWith('--'))); // specific filenames to force
+const FORCE = args.includes('--force') && FORCE_FILES.size === 0;   // force ALL only when no files specified
 
 // Load .env.local manually (no dotenv dependency needed)
 const envPath = path.join(__dirname, '..', '.env.local');
