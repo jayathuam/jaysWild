@@ -8,14 +8,7 @@ name: Image Pipeline (Full)
 # 5. Trigger Vercel deployment
 
 on:
-  # Trigger on image changes
-  push:
-    branches:
-      - main
-    paths:
-      - 'public/images/**/*'
-
-  # Allow manual trigger
+  # Manual trigger only — images are stored in Vercel Blob CDN (not git)
   workflow_dispatch:
     inputs:
       force_regenerate:

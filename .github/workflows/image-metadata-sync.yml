@@ -2,17 +2,7 @@ name: Image Metadata Sync
 
 # Trigger when images are added or modified
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'public/images/**/*.jpg'
-      - 'public/images/**/*.jpeg'
-      - 'public/images/**/*.png'
-      - 'public/images/**/*.webp'
-      - 'public/images/**/*.avif'
-
-  # Allow manual trigger
+  # Manual trigger only — images are stored in Vercel Blob CDN (not git)
   workflow_dispatch:
 
 jobs:
