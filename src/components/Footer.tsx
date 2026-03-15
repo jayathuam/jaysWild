@@ -27,11 +27,11 @@ export function Footer({
   }, [])
 
   return (
-    <footer className="relative z-10 pt-15 pb-40 px-6 text-center bg-cover bg-center bg-no-repeat mt-20" style={{ backgroundImage: bgUrl ? `url(${bgUrl})` : undefined, backgroundSize: 'cover', backgroundPosition: '50% 70%' }}>
-      <h2 className="font-serif text-3xl md:text-4xl font-bold text-forest-700 mb-10">
+    <footer className="relative z-10 pt-15 pb-40 px-6 text-center bg-no-repeat mt-8 sm:mt-12 lg:mt-20 bg-size-[300%] bg-position-[40%_68%] sm:bg-cover sm:bg-position-[50%_60%] lg:bg-position-[50%_70%]" style={{ backgroundImage: bgUrl ? `url(${bgUrl})` : undefined }}>
+      <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-forest-700 mb-4 sm:mb-10">
         {title}
       </h2>
-      <p className="text-lg text-neutral-600 max-w-2xl mx-auto mb-10">
+      <p className="text-sm sm:text-lg text-neutral-600 max-w-2xl mx-auto mb-4 sm:mb-10">
         {description}
       </p>
       <div className="flex gap-6 justify-center items-center">
