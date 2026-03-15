@@ -77,7 +77,7 @@ export function HomePage() {
             alt={img.alt}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1500] ease-in-out ${
               timeOfDay === time ? 'opacity-100' : 'opacity-0'
-            } ${time === 'dusk' ? 'max-sm:scale-[1.4] max-sm:origin-bottom' : ''} ${time === 'night' ? 'max-sm:object-[60%_50%]' : ''} ${time === 'midday' ? 'max-sm:object-[65%_50%] max-sm:scale-[1.4] max-sm:origin-[center_70%]' : ''} ${time === 'dawn' ? 'max-sm:object-[32%_50%]' : ''}`}
+            } ${time === 'dusk' ? 'max-sm:scale-[1.4] max-sm:origin-bottom' : ''} ${time === 'night' ? 'max-sm:object-[40%_50%]' : ''} ${time === 'midday' ? 'max-sm:object-[65%_50%] max-sm:scale-[1.4] max-sm:origin-[center_70%]' : ''} ${time === 'dawn' ? 'max-sm:object-[32%_50%]' : ''}`}
           />
         ))}
       </div>
