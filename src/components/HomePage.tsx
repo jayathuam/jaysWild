@@ -64,7 +64,7 @@ export function HomePage() {
   return (
     <div className="min-h-screen flex flex-col relative overflow-hidden">
       {/* Time indicator */}
-      <div className="absolute top-6 right-6 z-10 font-sans text-xs text-neutral-600 bg-white/80 px-4 py-2 rounded-full border border-neutral-600/20">
+      <div className="hidden lg:block absolute top-6 right-6 z-10 font-sans text-xs text-neutral-600 bg-white/80 px-4 py-2 rounded-full border border-neutral-600/20">
         Time: {timeLabels[timeOfDay]}
       </div>
 
@@ -77,7 +77,7 @@ export function HomePage() {
             alt={img.alt}
             className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1500] ease-in-out ${
               timeOfDay === time ? 'opacity-100' : 'opacity-0'
-            }`}
+            } ${time === 'dusk' ? 'max-sm:scale-[1.4] max-sm:origin-bottom' : ''} ${time === 'night' ? 'max-sm:object-[60%_50%]' : ''} ${time === 'midday' ? 'max-sm:object-[65%_50%] max-sm:scale-[1.4] max-sm:origin-[center_70%]' : ''} ${time === 'dawn' ? 'max-sm:object-[32%_50%]' : ''}`}
           />
         ))}
       </div>
@@ -85,10 +85,10 @@ export function HomePage() {
       {/* Glass effect container at top - title and tagline */}
       <div className="relative z-2 pt-12 px-6 flex justify-center">
         <div className="backdrop-blur-md bg-white/10 rounded-2xl px-6 py-6 border border-white/20 shadow-2xl max-w-150 w-full text-center">
-          <h1 className="font-sans text-[clamp(36px,8vw,48px)] font-bold text-white mb-2 tracking-[0.02em] capitalize">
+          <h1 className="font-sans text-[clamp(24px,4.5vw,48px)] font-extrabold text-white mb-2 tracking-[0.02em] capitalize">
             Jayathu Amarasinghe
           </h1>
-          <p className={`font-sans text-white text-lg font-semibold tracking-[0.02em] drop-shadow-lg transition-colors duration-500 ${taglineColors[timeOfDay]}`}>
+          <p className={`font-sans text-white text-sm sm:text-lg font-semibold tracking-[0.02em] drop-shadow-lg transition-colors duration-500 ${taglineColors[timeOfDay]}`}>
             Capturing the untamed beauty of nature
           </p>
         </div>
@@ -112,13 +112,13 @@ export function HomePage() {
               href="/gallery/color/"
               className="relative inline-block font-sans text-lg font-normal no-underline transition-all duration-300 ease-nature text-white/90 nav-link-underline after:bg-linear-to-r after:from-red-500 after:via-green-500 after:to-blue-500 hover:bg-linear-to-r hover:from-red-500 hover:via-green-500 hover:to-blue-500 hover:bg-clip-text hover:text-transparent"
             >
-              Color Gallery
+              <span className="sm:hidden">Color</span><span className="hidden sm:inline">Color Gallery</span>
             </Link>
             <Link
               href="/gallery/bw/"
               className="relative inline-block font-sans text-lg font-normal no-underline transition-all duration-300 ease-nature text-white/90 nav-link-underline after:bg-black hover:text-black"
             >
-              Black &amp; White Gallery
+              <span className="sm:hidden">B&amp;W</span><span className="hidden sm:inline">Black &amp; White Gallery</span>
             </Link>
             <Link
               href="/about/"
@@ -213,7 +213,7 @@ export function HomePage() {
           }`}
           onClick={() => setManualTimeOfDay('dawn')}
         >
-          Dawn 🌅
+          Dawn <span className="hidden sm:inline">🌅</span>
         </button>
         <button
           className={`font-sans text-xs px-4 py-2 border rounded cursor-pointer transition-all duration-300 ${
@@ -223,7 +223,7 @@ export function HomePage() {
           }`}
           onClick={() => setManualTimeOfDay('midday')}
         >
-          Midday ☀️
+          Midday <span className="hidden sm:inline">☀️</span>
         </button>
         <button
           className={`font-sans text-xs px-4 py-2 border rounded cursor-pointer transition-all duration-300 ${
@@ -233,7 +233,7 @@ export function HomePage() {
           }`}
           onClick={() => setManualTimeOfDay('dusk')}
         >
-          Dusk 🌇
+          Dusk <span className="hidden sm:inline">🌇</span>
         </button>
         <button
           className={`font-sans text-xs px-4 py-2 border rounded cursor-pointer transition-all duration-300 ${
@@ -243,7 +243,7 @@ export function HomePage() {
           }`}
           onClick={() => setManualTimeOfDay('night')}
         >
-          Night 🌙
+          Night <span className="hidden sm:inline">🌙</span>
         </button>
       </div>
     </div>
