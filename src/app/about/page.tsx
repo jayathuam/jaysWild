@@ -69,12 +69,12 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section
         className="relative z-10 bg-white min-h-125 flex flex-col items-center justify-center py-16 md:py-20 px-6 text-center"
-        style={{
-          backgroundImage: about ? `url(${about.heroBackground.url})` : undefined,
-          backgroundSize: 'contain',
-          backgroundPosition: 'bottom right',
-          backgroundRepeat: 'no-repeat'
-        }}
+        // style={{
+        //   backgroundImage: about ? `url(${about.heroBackground.url})` : undefined,
+        //   backgroundSize: 'contain',
+        //   backgroundPosition: 'bottom right',
+        //   backgroundRepeat: 'no-repeat'
+        // }}
       >
         <img
           src={about?.profile.url}
@@ -91,15 +91,10 @@ export default function AboutPage() {
 
       {/* Photo Strip 1 */}
       <div
-        className="relative z-10 w-full overflow-hidden"
+        className="relative z-10 w-full overflow-hidden h-44 sm:h-64 md:h-100 bg-size-[200%] sm:bg-cover"
         style={{
           backgroundImage: about ? `url(${about.strip1.url})` : undefined,
-          // Size options: 'cover' (fills area, may crop), 'contain' (shows full image), '100% 400px' (width height), etc.
-          backgroundSize: 'cover',
-          // Position options: 'center', 'top', 'bottom', 'left', 'right', '50% 30%', etc.
           backgroundPosition: '50% 60%',
-          // Height options: '200px', '300px', '400px', '500px', etc.
-          height: '400px'
         }}
       >
       </div>
@@ -138,15 +133,9 @@ export default function AboutPage() {
 
       {/* Photo Strip 2 */}
       <div
-        className="relative z-10 w-full overflow-hidden"
+        className="relative z-10 w-full overflow-hidden h-44 sm:h-64 md:h-100 bg-size-[200%] sm:bg-size-[100%] bg-position-[40%_58%] sm:bg-position-[10%_58%]"
         style={{
           backgroundImage: about ? `url(${about.strip2.url})` : undefined,
-          // Size options: 'cover' (fills area, may crop), 'contain' (shows full image), '120%' (zoom out), '150%' (zoom out more), etc.
-          backgroundSize: '100%',
-          // Position options: 'center', 'top', 'bottom', 'left', 'right', '50% 30%', etc.
-          backgroundPosition: '10% 58%',
-          // Height options: '200px', '300px', '400px', '500px', etc.
-          height: '400px'
         }}
       >
       </div>
