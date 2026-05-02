@@ -198,12 +198,30 @@ async function getImageDimensions(filePath) {
 }
 
 /**
+ * Generate a tiny base64 blur placeholder using Sharp
+ */
+async function generateBlurDataURL(filePath) {
+  try {
+    const sharp = require('sharp');
+    const { data } = await sharp(filePath)
+      .resize(10, 10, { fit: 'cover' })
+      .jpeg({ quality: 30 })
+      .toBuffer({ resolveWithObject: true });
+    return `data:image/jpeg;base64,${data.toString('base64')}`;
+  } catch (error) {
+    console.warn(`Could not generate blur placeholder for ${path.basename(filePath)}`);
+    return null;
+  }
+}
+
+/**
  * Generate image entry for images.json
  */
 async function generateImageEntry(filePath, category) {
   const filename = path.basename(filePath);
   const metadata = await extractMetadata(filePath);
   const dimensions = await getImageDimensions(filePath);
+  const blurDataURL = await generateBlurDataURL(filePath);
 
   // Generate ID from filename
   const id = path.parse(filename).name;
@@ -221,6 +239,7 @@ async function generateImageEntry(filePath, category) {
     width: dimensions.width,
     height: dimensions.height,
     alt: altText,
+    blurDataURL,
     metadata: metadata || {
       camera: null,
       iso: null,

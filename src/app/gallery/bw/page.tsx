@@ -26,6 +26,7 @@ interface ImageData {
   width: number
   height: number
   alt: string
+  blurDataURL?: string
   metadata: ImageMetadata
   createdAt: string
 }
@@ -113,6 +114,8 @@ export default function BWGalleryPage() {
                 height={image.height}
                 metadata={image.metadata}
                 onClick={() => openLightbox(index)}
+                priority={index < 4}
+                blurDataURL={image.blurDataURL}
               />
             ))}
           </MasonryGrid>

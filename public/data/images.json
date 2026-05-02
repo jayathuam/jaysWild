@@ -18,7 +18,8 @@
         "dateTaken": "2023-07-01T17:17:30.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.189Z"
+      "createdAt": "2026-02-02T06:01:54.189Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAHBABAAIBBQAAAAAAAAAAAAAAAQADAgQRITJx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMSitspzzEDDn2GU3ltOpTcC9YeIf//Z"
     },
     {
       "id": "Bee Eater",
@@ -38,7 +39,8 @@
         "dateTaken": "2024-01-04T02:03:27.000Z",
         "location": "Australia"
       },
-      "createdAt": "2026-02-02T06:01:54.192Z"
+      "createdAt": "2026-02-02T06:01:54.192Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBP/EAB4QAAICAAcAAAAAAAAAAAAAAAABAhEDEhQhMUFx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ANCnk6uSBqIvekSxuV4LSJzAr//Z"
     },
     {
       "id": "Eagle",
@@ -58,7 +60,8 @@
         "dateTaken": "2023-11-06T09:10:42.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.194Z"
+      "createdAt": "2026-02-02T06:01:54.194Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAIRAAAQMEAQUAAAAAAAAAAAAAAQACIQMEBRESFDFDc7H/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAB/9oADAMBAAIRAxEAPwAZCmGXZLpbociO6HTtdLbmnoyJV8t5PYPiwURyJf/Z"
     },
     {
       "id": "Ghala",
@@ -78,7 +81,8 @@
         "dateTaken": "2025-10-04T08:33:09.000Z",
         "location": "Australia"
       },
-      "createdAt": "2026-02-02T06:01:54.196Z"
+      "createdAt": "2026-02-02T06:01:54.196Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwT/xAAfEAACAQMFAQAAAAAAAAAAAAABAhEAAyEEBRIikTL/xAAVAQEBAAAAAAAAAAAAAAAAAAAABP/EABcRAQADAAAAAAAAAAAAAAAAAAABETH/2gAMAwEAAhEDEQA/ALl3DTlzysQgGDFMNw0sfLeVBaVeVvqMqZxQlVk4HlR7Jb//2Q=="
     },
     {
       "id": "Giraf",
@@ -98,7 +102,8 @@
         "dateTaken": "2025-08-13T20:49:38.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.198Z"
+      "createdAt": "2026-02-02T06:01:54.198Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIF/8QAHxAAAgEDBQEAAAAAAAAAAAAAAQIAAxExBRVRUmGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABcRAAMBAAAAAAAAAAAAAAAAAAABEgL/2gAMAwEAAhEDEQA/AFqaoqsArX8l7knc/JiUwL4GIlhwIEZHtn//2Q=="
     },
     {
       "id": "Kingfisher",
@@ -118,7 +123,8 @@
         "dateTaken": "2023-05-28T09:04:39.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.200Z"
+      "createdAt": "2026-02-02T06:01:54.200Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgME/8QAHxABAAEEAQUAAAAAAAAAAAAAAQACAxExEiEyQXGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQEBAAMAAAAAAAAAAAAAAAABAAIRQf/aAAwDAQACEQMRAD8ATY4YNnnrIJhQtE03e6n1GUmNHyLjumIcv//Z"
     },
     {
       "id": "Leopard",
@@ -138,7 +144,8 @@
         "dateTaken": "2023-02-10T12:23:47.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.202Z"
+      "createdAt": "2026-02-02T06:01:54.202Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EACQQAAECAwgDAAAAAAAAAAAAAAIAAQMEQRESFCExMlKBYZHx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwAlpyKLGDDTItOlfGzVYkG3z8WNthdOnvFyf2oD/9k="
     },
     {
       "id": "Leopard2",
@@ -158,7 +165,8 @@
         "dateTaken": "2022-12-12T18:03:16.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.204Z"
+      "createdAt": "2026-02-02T06:01:54.204Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQME/8QAHhABAAICAQUAAAAAAAAAAAAAAQACEUESFDEzU9H/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQAxEv/aAAwDAQACEQMRAD8Ap1lqha9HC6Zis0bLx3637F8Q75RFx3Y1XYchl//Z"
     },
     {
       "id": "Leopards3",
@@ -178,7 +186,8 @@
         "dateTaken": "2025-03-21T17:44:16.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.206Z"
+      "createdAt": "2026-02-02T06:01:54.206Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQEC/8QAHxAAAgECBwAAAAAAAAAAAAAAAAERAhMUISIxUVKR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ABcPVnq9M26+wxCnZEhcIA//2Q=="
     },
     {
       "id": "Leopards4",
@@ -198,7 +207,8 @@
         "dateTaken": "2023-02-10T12:08:54.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.208Z"
+      "createdAt": "2026-02-02T06:01:54.208Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAHxAAAgICAQUAAAAAAAAAAAAAAQIAAyEiBBESMUFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAMAwEAAhEDEQA/AAvI7bmQgMmVYn2Zj3WMbnIxscRLY+27Z+yoJ6eYBpjl/9k="
     },
     {
       "id": "Lion2",
@@ -218,7 +228,8 @@
         "dateTaken": "2025-08-14T20:37:14.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.210Z"
+      "createdAt": "2026-02-02T06:01:54.210Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAjEAABAgMJAQAAAAAAAAAAAAABAAIDBCEREhMyM0FCUnGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//EABgRAAMBAQAAAAAAAAAAAAAAAAABAiEx/9oADAMBAAIRAxEAPwA8xCbCaLvGgKLijr8KdP6Fu9VNblHiGdQtLh//2Q=="
     },
     {
       "id": "Lions",
@@ -238,7 +249,8 @@
         "dateTaken": "2025-08-10T20:16:04.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.212Z"
+      "createdAt": "2026-02-02T06:01:54.212Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwT/xAAgEAABAwIHAAAAAAAAAAAAAAABAAIDERITITFBUXGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8AnmZIG3B5J2CnxJhlR3iTUu7RVPJU4T//2Q=="
     },
     {
       "id": "Musk Lorikeet",
@@ -258,7 +270,8 @@
         "dateTaken": "2025-01-11T03:13:58.000Z",
         "location": "Australia"
       },
-      "createdAt": "2026-02-02T06:01:54.214Z"
+      "createdAt": "2026-02-02T06:01:54.214Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQF/8QAIhAAAQMDAwUAAAAAAAAAAAAAAQACEQMEIQUTIiMxUXGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANl91Up1OowhgEkxKI6jnNW3afBfkfEl0BuTGQO6kcOR9oD/2Q=="
     },
     {
       "id": "Orang",
@@ -278,7 +291,8 @@
         "dateTaken": "2024-06-12T14:28:10.000Z",
         "location": "Malaysia"
       },
-      "createdAt": "2026-02-02T06:01:54.215Z"
+      "createdAt": "2026-02-02T06:01:54.215Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMEBf/EAB0QAQABBQADAAAAAAAAAAAAAAECAAMEESEUQYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABgRAAIDAAAAAAAAAAAAAAAAAAABAhEh/9oADAMBAAIRAxEAPwCNn4tpkPd8XqU2ObbYikN671oY4StzJAmvf2sSpWiLpH//2Q=="
     },
     {
       "id": "Owlet",
@@ -298,7 +312,8 @@
         "dateTaken": "2023-01-21T10:46:57.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.217Z"
+      "createdAt": "2026-02-02T06:01:54.217Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQF/8QAIRAAAgEDAwUAAAAAAAAAAAAAAQIAAxEhBBJBFCIyYfD/xAAVAQEBAAAAAAAAAAAAAAAAAAACBP/EABYRAAMAAAAAAAAAAAAAAAAAAAACEf/aAAwDAQACEQMRAD8ANNU1GooCoe42IW0p6lDkogPtWmcnkPuDEUnaM8SZngaf/9k="
     },
     {
       "id": "Pelicon",
@@ -318,7 +333,8 @@
         "dateTaken": "2025-12-14T08:16:44.000Z",
         "location": "Australia"
       },
-      "createdAt": "2026-02-02T06:01:54.218Z"
+      "createdAt": "2026-02-02T06:01:54.218Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAIxAAAQQBAQkAAAAAAAAAAAAAAQACAxESIQQVIkFRcpHB0f/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDZO0ZNJia5wHOkPeNaEm+0/EmfSYV09qLpH5Hjd5Qf/9k="
     },
     {
       "id": "Sunset",
@@ -338,7 +354,8 @@
         "dateTaken": "2025-08-14T09:37:38.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.220Z"
+      "createdAt": "2026-02-02T06:01:54.220Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EACEQAAEDAQkAAAAAAAAAAAAAAAEAAhESBBQhJFFSVJGS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQNRoWH/2gAMAwEAAhEDEQA/AICbVWDeGiThAEJuZ5TPAWRJ1KKnbj2hcfcKFMq0/9k="
     },
     {
       "id": "Zebra",
@@ -358,7 +375,8 @@
         "dateTaken": "2025-08-11T11:22:21.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.222Z"
+      "createdAt": "2026-02-02T06:01:54.222Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgME/8QAHhAAAQQCAwEAAAAAAAAAAAAAAQACAxESITFBQrH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEQMRAD8AZke43i4b6IpXu/HxZ5AM49cvFpkmzsqTIxb/2Q=="
     },
     {
       "id": "leopard6",
@@ -378,7 +396,8 @@
         "dateTaken": "2023-06-11T07:09:36.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.224Z"
+      "createdAt": "2026-02-02T06:01:54.224Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EACAQAAEDAwUBAAAAAAAAAAAAAAEAAxESEzECBCEygaH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDIHA40TpmDFROFG20ebseo2xNJEnofmEqih//Z"
     },
     {
       "id": "leopard7",
@@ -398,7 +417,8 @@
         "dateTaken": "2023-11-07T12:46:53.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.225Z"
+      "createdAt": "2026-02-02T06:01:54.225Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAHhAAAgICAgMAAAAAAAAAAAAAAQIAESExAxIUYZH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABYRAQEBAAAAAAAAAAAAAAAAABEAQf/aAAwDAQACEQMRAD8Az04EK0hNjQY4MfhOc9l+yqgW3rUIJqBpLl//2Q=="
     },
     {
       "id": "leopards5",
@@ -418,7 +438,8 @@
         "dateTaken": "2023-06-29T17:09:33.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.227Z"
+      "createdAt": "2026-02-02T06:01:54.227Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAA//EAB4QAAEDBAMAAAAAAAAAAAAAAAEAAhEDEhMhMVJh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8AF1zaUTIJmSiyN6I6jnWv2deoyTPJUQ1//9k="
     },
     {
       "id": "lorikeet",
@@ -438,7 +459,8 @@
         "dateTaken": "2024-09-04T12:41:43.000Z",
         "location": "Australia"
       },
-      "createdAt": "2026-02-02T06:01:54.228Z"
+      "createdAt": "2026-02-02T06:01:54.228Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUG/8QAHhAAAQQCAwEAAAAAAAAAAAAAAQACAxEEIQUSMYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwBL+QjjzWxuNMI9rdqgcyMGuw0s3kbcwn2xv6lpVR//2Q=="
     },
     {
       "id": "owl",
@@ -458,7 +480,8 @@
         "dateTaken": "2023-06-06T15:26:35.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.230Z"
+      "createdAt": "2026-02-02T06:01:54.230Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwEE/8QAHxAAAgICAQUAAAAAAAAAAAAAAQIAIQMSBBNBQmGB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAMAwEAAhEDEQA/AMbbvyGbqlQDVe5d8Xd8h+wMRN35QGY7GzJHMf/Z"
     },
     {
       "id": "bear",
@@ -478,7 +501,8 @@
         "dateTaken": "2023-07-01T17:17:30.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.232Z"
+      "createdAt": "2026-02-02T06:01:54.232Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAGxABAAICAwAAAAAAAAAAAAAAAQADBBECEmH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aycatso52GgrNvsIorL4qlGQC66w0D//Z"
     },
     {
       "id": "blackcockatoo",
@@ -498,7 +522,8 @@
         "dateTaken": "2024-12-14T01:44:38.000Z",
         "location": "Australia"
       },
-      "createdAt": "2026-02-02T06:01:54.233Z"
+      "createdAt": "2026-02-02T06:01:54.233Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAABf/EACAQAAEDAwUBAAAAAAAAAAAAAAEAAgMEBREhMTJBcVH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8ATr5JGXWk0Jidlhx0T9SSMvBLYXlpIOdx4k28R4g//9k="
     },
     {
       "id": "cheeta",
@@ -518,7 +543,8 @@
         "dateTaken": "2025-08-13T11:36:01.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.234Z"
+      "createdAt": "2026-02-02T06:01:54.234Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAgP/xAAdEAACAQQDAAAAAAAAAAAAAAAAAVECAxEhEhOh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKK/VnM6Whd1ceEwcnLA/9k="
     },
     {
       "id": "elephant",
@@ -538,7 +564,8 @@
         "dateTaken": "2025-08-15T18:20:52.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.235Z"
+      "createdAt": "2026-02-02T06:01:54.235Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMFBv/EAB0QAQABBQADAAAAAAAAAAAAAAECAAMFESEEQrH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AJyHlNqSXpb7To3skxGJfROOjtSZruPfeH2tnQf/Z"
     },
     {
       "id": "leopard2",
@@ -558,7 +585,8 @@
         "dateTaken": "2023-11-02T13:56:55.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.237Z"
+      "createdAt": "2026-02-02T06:01:54.237Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBP/EAB4QAQABBAIDAAAAAAAAAAAAAAEAAhESIQNRMUGR/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJabY0O/Ae4U5RTM12RhTKz3MjU3dv2B/9k="
     },
     {
       "id": "leopard3",
@@ -578,7 +606,8 @@
         "dateTaken": "2023-03-09T08:10:54.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.238Z"
+      "createdAt": "2026-02-02T06:01:54.238Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFAABAAAAAAAAAAAAAAAAAAAAA//EAB4QAAIBAwUAAAAAAAAAAAAAAAABEQISIQMyUWFx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AAq2ZmasJcC2roPVbsXqBbcsD//Z"
     },
     {
       "id": "leopard4",
@@ -598,7 +627,8 @@
         "dateTaken": "2025-03-17T07:19:19.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.239Z"
+      "createdAt": "2026-02-02T06:01:54.239Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAHxAAAQMDBQAAAAAAAAAAAAAAAQACIQMFERMkMVFh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AC+1VmSHueTymLZXwNwB5prSaTEquB0EH//Z"
     },
     {
       "id": "leopards",
@@ -618,7 +648,8 @@
         "dateTaken": "2019-04-17T04:59:31.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.241Z"
+      "createdAt": "2026-02-02T06:01:54.241Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQQF/8QAHxABAAEEAQUAAAAAAAAAAAAAAQIAAwQRMTJBUXKS/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AKr+IkyESRt0Se9Jg5AHH0Vo3uk9ijb5aD//2Q=="
     },
     {
       "id": "lion",
@@ -638,7 +669,8 @@
         "dateTaken": "2025-08-13T09:33:04.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.242Z"
+      "createdAt": "2026-02-02T06:01:54.242Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBP/EAB8QAQABBAEFAAAAAAAAAAAAAAEAAhESIQQTMVFxof/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBOO5uLTdab3OxJdXzp9wChpTafZtpBpFBUgf/Z"
     },
     {
       "id": "lion2",
@@ -658,7 +690,8 @@
         "dateTaken": "2025-08-11T10:09:12.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.244Z"
+      "createdAt": "2026-02-02T06:01:54.244Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAgP/xAAhEAACAgECBwAAAAAAAAAAAAABAgMRAAQhEiIxQVGRwf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBwwtBM8ShQpF2BY9/MfAg2Ic13C5fTAFkNbkG8LKoY8o6+MD//2Q=="
     },
     {
       "id": "pecock",
@@ -678,7 +711,8 @@
         "dateTaken": "2025-03-17T06:18:53.000Z",
         "location": "Sri Lanka"
       },
-      "createdAt": "2026-02-02T06:01:54.245Z"
+      "createdAt": "2026-02-02T06:01:54.245Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAgb/xAAcEAACAgIDAAAAAAAAAAAAAAAAAQIRAzJxgbH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Ao55FBW7fArBPePfg6A//2Q=="
     },
     {
       "id": "rahino",
@@ -698,7 +732,8 @@
         "dateTaken": "2025-08-10T19:08:02.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.246Z"
+      "createdAt": "2026-02-02T06:01:54.246Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgME/8QAIhAAAQIEBwEAAAAAAAAAAAAAAgABAxESIQQTIjFRUnGh/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALw8XDMZUGPrSmjmwepfViF3vd0SIqn1Pvyg/9k="
     },
     {
       "id": "wildabeast",
@@ -718,7 +753,8 @@
         "dateTaken": "2019-04-17T05:58:55.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.248Z"
+      "createdAt": "2026-02-02T06:01:54.248Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAHhAAAQMEAwAAAAAAAAAAAAAAAQACEQMUUpESMXH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3b6lMQ6fFXtPF+kMk8e0YvfkdoP/2Q=="
     },
     {
       "id": "wildabeast2",
@@ -738,7 +774,8 @@
         "dateTaken": "2025-08-15T11:57:46.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.250Z"
+      "createdAt": "2026-02-02T06:01:54.250Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIE/8QAHhABAAIBBAMAAAAAAAAAAAAAAQARAgMSITETUWL/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aleiyq5Ye/wCsZtxDx6jRZjw+oTiX0QP/2Q=="
     },
     {
       "id": "zebra",
@@ -758,7 +795,8 @@
         "dateTaken": "2025-08-11T11:22:21.000Z",
         "location": "Kenya"
       },
-      "createdAt": "2026-02-02T06:01:54.251Z"
+      "createdAt": "2026-02-02T06:01:54.251Z",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAD/8QAHxAAAQMDBQAAAAAAAAAAAAAAAQADEgIhMREjMnKC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ADvVAE0HOZraLpvAj0k5yb7BRJ1N0H//2Q=="
     }
   ],
   "generatedAt": "2026-02-02T06:01:54.252Z",
@@ -768,20 +806,68 @@
     "bw": 15
   },
   "homePage": {
-    "dawn":   { "filename": "dawn.jpg",   "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/dawn.jpg",   "alt": "Dawn wildlife scene" },
-    "midday": { "filename": "midday.jpg", "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/midday.jpg", "alt": "Midday wildlife scene" },
-    "dusk":   { "filename": "dusk.jpg",   "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/dusk.jpg",   "alt": "Dusk wildlife scene" },
-    "night":  { "filename": "night.jpg",  "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/night.jpg",  "alt": "Night wildlife scene" }
+    "dawn": {
+      "filename": "dawn.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/dawn.jpg",
+      "alt": "Dawn wildlife scene",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EABoQAAICAwAAAAAAAAAAAAAAAAABERIxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//EABcRAQADAAAAAAAAAAAAAAAAAAABEVH/2gAMAwEAAhEDEQA/AM3NU9CnqB4JJFcY/9k="
+    },
+    "midday": {
+      "filename": "midday.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/midday.jpg",
+      "alt": "Midday wildlife scene",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EAB8QAAEDBAMBAAAAAAAAAAAAAAECAyEABBESIjFBMv/EABUBAQEAAAAAAAAAAAAAAAAAAAED/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwAnblrctJAbb6IP1io1KGxwF4zE06x5tr35R7NZayd1T7UbRr//2Q=="
+    },
+    "dusk": {
+      "filename": "dusk.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/dusk.jpg",
+      "alt": "Dusk wildlife scene",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EACAQAAAFAwUAAAAAAAAAAAAAAAABAgMSEVGRFCExceH/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAECEv/aAAwDAQACEQMRAD8AVqK7G451ADNN3MejUNKeYlgTVO5gkWKy/9k="
+    },
+    "night": {
+      "filename": "night.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/homePage/night.jpg",
+      "alt": "Night wildlife scene",
+      "blurDataURL": "data:image/jpeg;base64,/9j/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAKAAoDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBf/EAB0QAQACAAcAAAAAAAAAAAAAAAEAAgQFESEyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAAMAAAAAAAAAAAAAAAAAAAABEv/aAAwDAQACEQMRAD8ApXMnVGie9wOO34szaRZNMJR//9k="
+    }
   },
   "about": {
-    "heroBackground":   { "filename": "hero-elephant-bg.png", "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/hero-elephant-bg.png", "alt": "Elephant background" },
-    "profile":          { "filename": "profile.jpg",          "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/profile.jpg",          "alt": "Jayathu Amarasinghe" },
-    "strip1":           { "filename": "1.jpg",                "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/1.jpg",                "alt": "Wildlife photo strip 1" },
-    "boyBackground":    { "filename": "boy.png",              "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/boy.png",              "alt": "Young photographer" },
-    "strip2":           { "filename": "2.jpg",                "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/2.jpg",                "alt": "Wildlife photo strip 2" },
-    "safariBackground": { "filename": "safari.png",           "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/safari.png",           "alt": "Safari equipment" }
+    "heroBackground": {
+      "filename": "hero-elephant-bg.png",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/hero-elephant-bg.png",
+      "alt": "Elephant background"
+    },
+    "profile": {
+      "filename": "profile.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/profile.jpg",
+      "alt": "Jayathu Amarasinghe"
+    },
+    "strip1": {
+      "filename": "1.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/1.jpg",
+      "alt": "Wildlife photo strip 1"
+    },
+    "boyBackground": {
+      "filename": "boy.png",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/boy.png",
+      "alt": "Young photographer"
+    },
+    "strip2": {
+      "filename": "2.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/2.jpg",
+      "alt": "Wildlife photo strip 2"
+    },
+    "safariBackground": {
+      "filename": "safari.png",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/about/safari.png",
+      "alt": "Safari equipment"
+    }
   },
   "footer": {
-    "background": { "filename": "3.jpg", "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/footer/3.jpg", "alt": "Wildlife footer background" }
+    "background": {
+      "filename": "3.jpg",
+      "url": "https://mgssxoysthxmwtr7.public.blob.vercel-storage.com/footer/3.jpg",
+      "alt": "Wildlife footer background"
+    }
   }
 }

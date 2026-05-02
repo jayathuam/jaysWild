@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 import { useTimeOfDay } from '@/hooks/useTimeOfDay'
 
@@ -8,6 +9,7 @@ interface SiteImage {
   url: string
   alt: string
   filename: string
+  blurDataURL?: string
 }
 
 interface HomePageImages {
@@ -71,14 +73,21 @@ export function HomePage() {
       {/* Time-adaptive background with crossfade */}
       <div className="absolute inset-0 z-0">
         {homePageImages && (Object.entries(homePageImages) as [keyof HomePageImages, SiteImage][]).map(([time, img]) => (
-          <img
-            key={time}
-            src={img.url}
-            alt={img.alt}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-[1500] ease-in-out ${
-              timeOfDay === time ? 'opacity-100' : 'opacity-0'
-            } ${time === 'dusk' ? 'max-sm:scale-[1.4] max-sm:origin-bottom' : ''} ${time === 'night' ? 'max-sm:object-[40%_50%]' : ''} ${time === 'midday' ? 'max-sm:object-[65%_50%] max-sm:scale-[1.4] max-sm:origin-[center_70%]' : ''} ${time === 'dawn' ? 'max-sm:object-[32%_50%]' : ''}`}
-          />
+          <div key={time} className="absolute inset-0">
+            <Image
+              src={img.url}
+              alt={img.alt}
+              fill
+              style={{ objectFit: 'cover' }}
+              className={`transition-opacity duration-[1500ms] ease-in-out ${
+                timeOfDay === time ? 'opacity-100' : 'opacity-0'
+              } ${time === 'dusk' ? 'max-sm:scale-[1.4] max-sm:origin-bottom' : ''} ${time === 'night' ? 'max-sm:object-[40%_50%]' : ''} ${time === 'midday' ? 'max-sm:object-[65%_50%] max-sm:scale-[1.4] max-sm:origin-[center_70%]' : ''} ${time === 'dawn' ? 'max-sm:object-[32%_50%]' : ''}`}
+              priority={timeOfDay === time}
+              placeholder={img.blurDataURL ? 'blur' : 'empty'}
+              blurDataURL={img.blurDataURL}
+              sizes="100vw"
+            />
+          </div>
         ))}
       </div>
 

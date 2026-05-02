@@ -22,6 +22,8 @@ interface GalleryItemProps {
   height: number
   metadata: ImageMetadata
   onClick: () => void
+  priority?: boolean
+  blurDataURL?: string
 }
 
 export default function GalleryItem({
@@ -31,6 +33,8 @@ export default function GalleryItem({
   height,
   metadata,
   onClick,
+  priority = false,
+  blurDataURL,
 }: GalleryItemProps) {
   const [isLoaded, setIsLoaded] = useState(false)
 
@@ -39,8 +43,8 @@ export default function GalleryItem({
       className="relative mb-8 sm:mb-10 md:mb-12 lg:mb-16 2xl:mb-20 break-inside-avoid cursor-pointer group overflow-hidden transition-transform duration-300 hover:scale-102"
       onClick={onClick}
     >
-      {/* Skeleton loader */}
-      {!isLoaded && (
+      {/* Skeleton fallback — only shown when no blur placeholder is available */}
+      {!blurDataURL && !isLoaded && (
         <div
           className="w-full bg-gradient-to-r from-neutral-200 via-neutral-100 to-neutral-200 bg-[length:200%_100%] animate-pulse"
           style={{ aspectRatio: `${width}/${height}` }}
@@ -54,9 +58,13 @@ export default function GalleryItem({
         width={width}
         height={height}
         className={`w-full h-auto block transition-opacity duration-300 ${
-          isLoaded ? 'opacity-100' : 'opacity-0'
+          blurDataURL || isLoaded ? 'opacity-100' : 'opacity-0'
         }`}
-        loading="lazy"
+        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+        placeholder={blurDataURL ? 'blur' : 'empty'}
+        blurDataURL={blurDataURL}
+        loading={priority ? undefined : 'lazy'}
+        priority={priority}
         onLoad={() => setIsLoaded(true)}
       />
 

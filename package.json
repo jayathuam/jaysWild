@@ -13,6 +13,7 @@
     "test:ui": "playwright test --ui",
     "sync-images": "node src/lib/imageSync.ts",
     "generate-metadata": "node scripts/generate-image-metadata.js",
+    "generate-blur": "node scripts/generate-blur-placeholders.js",
     "upload-to-blob": "node scripts/upload-to-blob.js",
     "upload-to-blob:force": "node scripts/upload-to-blob.js --force"
   },
